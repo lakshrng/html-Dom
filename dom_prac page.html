@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Toggle and Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="theme-toggle-btn" class="light-button">Switch to Dark Mode</button>
+        <div id="timer">00:00</div>
+        <div id="control-buttons">
+            <input type="number" id="input-seconds" placeholder="Enter seconds">
+            <button id="start-btn" class="start-button">Start</button>
+            <button id="pause-btn" class="pause-button" disabled>Pause</button>
+            <button id="reset-btn" class="reset-button" disabled>Reset</button>
+        </div>
+    </div>
+<div id="style-change">
+    <button id="change-style-btn">Change Timer Style</button>
+</div>
+
+<div id="list-container">
+    <h3>List Operations</h3>
+    <ul id="item-list">
+        <li>Lamine</li>
+        <li>Cubarsi</li>
+        <li>Gavi</li>
+        <li>Gavi</li>
+        <li>PEDRIIII</li>
+    </ul>
+    <button id="sort-btn">Sort Alphabetically</button>
+    <button id="filter-btn">Filter Duplicates</button>
+    <button id="reverse-btn">Reverse Order</button>
+</div>
+
+<div id="table-container">
+    <h3>Dynamic Table</h3>
+    <input type="text" id="name-input" placeholder="Enter Name">
+    <input type="text" id="age-input" placeholder="Enter Age">
+    <button id="add-row-btn">Add Row</button>
+    <table id="dynamic-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<div id="image-gallery">
+    <h3>Interactive Image Gallery</h3>
+    <div class="thumbnails">
+        <img src="https://th.bing.com/th/id/OIP.c2qwSY7anODclikS27REmwHaE8?rs=1&pid=ImgDetMain" alt="Image 1" class="thumbnail">
+        <img src="https://okdiario.com/img/2022/10/09/pedri-barcelona-celta.jpg" alt="Image 2" class="thumbnail">
+        <img src="https://www.fcbarcelona.com/fcbarcelona/photo/2022/11/18/89094058-8d9c-4c7b-8d56-70bc65b43b54/2022-11-04_FCBvsALMERIA_80.jpg" alt="Image 3" class="thumbnail">
+    </div>
+    <div id="large-image-container">
+        <img id="large-image" src="" alt="Large Image">
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
